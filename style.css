@@ -1,0 +1,55 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: sans-serif;
+  font-size: 15px;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  width: 100vw;
+  height: 100vh;
+}
+
+.field {
+  width: 1020px;
+  height: 510px;
+  background-image: url('img/tile.png');
+  position: relative;
+}
+
+.pac {
+  position: absolute;
+  font-weight: bold;
+  text-align: center;
+  padding-top: 65px;
+  user-select: none;
+  width: 85px;
+  height: 85px;
+
+}
+
+.boy-active-light {
+  background-image: url('img/pacboy-active-light.png');
+}
+
+.boy-active-medium {
+  background-image: url('img/pacboy-active-medium.png');
+}
+.boy-active-dark {
+  background-image: url('img/pacboy-active-dark.png');
+}
+.girl-active-light {
+  background-image: url('img/pacgirl-active-light.png');
+}
+.girl-active-medium {
+  background-image: url('img/pacgirl-active-medium.png');
+}
+.girl-active-dark {
+  background-image: url('img/pacgirl-active-dark.png');
+}
